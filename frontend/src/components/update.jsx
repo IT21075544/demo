@@ -8,6 +8,7 @@ import backgroundImg from "./background3.jpg"; // Import your background image
 const API_URL =
   process.env.REACT_APP_API_URL || "http://localhost:8089/api/v1/student";
 
+  // UpdatePost component
 function UpdatePost() {
   const [studentname, setStudentName] = useState("");
   const [studentaddress, setStudentAddress] = useState("");
