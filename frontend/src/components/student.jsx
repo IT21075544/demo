@@ -34,7 +34,7 @@ function Student() {
   const handleEditStudent = (studentId) => {
     navigate(`/editpost/${studentId}`);
   };
-
+//Delete student
   const handleDeleteStudent = async (studentId) => {
     try {
       await axios.delete(`${API_URL}/delete/${studentId}`);
@@ -44,6 +44,7 @@ function Student() {
       setError("Error deleting student details");
     }
   };
+
 
   return (
     <div
