@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Chart, { Colors } from "chart.js/auto";
+//import Chart, { Colors } from "chart.js/auto";
 
 // Import your background image
 import backgroundImage from "./background.jpg";
